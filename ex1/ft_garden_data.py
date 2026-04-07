@@ -4,5 +4,4 @@ class Plant:
     age: int
 
     def show(self) -> None:
-        print("=== Garden Plant Registry ===")
         print(f"{self.name}: {self.height}cm, {self.age} days old")
